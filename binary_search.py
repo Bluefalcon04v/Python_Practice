@@ -1,4 +1,4 @@
-"""searching number efficiently using binary search technique,
+"""searching number efficiently using binary search technique ie. using mid value for search,
  from an unorganised list."""
 
 posn = 0
@@ -6,7 +6,7 @@ posn = 0
 def search(list, n):
     l = 0
     u = len(list) - 1
-    list.sort()
+    list.sort()               #in binary search sorting list is an important step. 
     print ('sorted list in ascending order:', list)
 
     while l <= u:
@@ -14,7 +14,7 @@ def search(list, n):
         if list[mid] == n:
             globals()['posn'] = mid
             return True
-        else:
+        else:                 #"n" > or < than "mid" value
             if list[mid] < n:
                 l = mid + 1
             else:
