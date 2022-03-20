@@ -1,6 +1,6 @@
-''''give fibonacci numbers '''''
+'''give fibonacci series''' 
 
-x = int(input("up-to what number you want fibonacci series \n"))
+x = int(input("up-to what number you want fibonacci series to be printed \n"))
 
 def fib():
     a = 0
