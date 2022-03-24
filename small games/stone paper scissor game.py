@@ -1,11 +1,13 @@
+""" Play rock-paper-scissor with computer"""
+
 import random
-print('let\'s play Stone, Paper, Scissor.')
+print('let\'s play Rock, Paper, Scissor.')
 
 def play():
 
     user = input("what is your choice? \n"
                      "p for paper, s for scissor, r for rock\n").lower()
-    bot = random.choice(['p', 's', 'r'])
+    bot = random.choice(['p', 's', 'r'])                                    # computer will choose one of the following.
 
     while user != 's' and user != 'p' and user != 'r':
             user = input("invalid input. Try again.").lower()
