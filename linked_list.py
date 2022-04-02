@@ -8,7 +8,7 @@ class Node:
     def __init__(self, data=None, next=None):
         self.data = data
         self.next = next
-
+        
 
 class Linked_list:
     def __init__(self):
@@ -46,12 +46,12 @@ class Linked_list:
 
 
 """
-when we are calling the method will also affect the result
-below we have called 'insert_at_end(10)' first before even printing any other data so it will get executed.
-after that insert_at_beginning(8) will get printed before 10      8--->10--->
-followed by 6                                                     6--->8--->10--->
+The way we are calling the method will also affect the result.
+Below, we have called 'insert_at_end(10)' first before even printing any other data so it will get executed.
+after that insert_at_beginning(8) will get printed before 10      {8--->10--->}
+followed by 6                                                     {6--->8--->10--->}
 after this 'insert_values(["python", "java", "c", "java_script"])' will printed at the "end" of the current list
-   4 ---> 6 ---> 8 ---> 10 ---> python ---> java ---> c ---> java_script --->
+{4 ---> 6 ---> 8 ---> 10 ---> python ---> java ---> c ---> java_script --->}
 and then 12 will get called at the last
 """
 
