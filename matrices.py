@@ -28,7 +28,7 @@ def in_build_method1():
         [1, 2, 3, 4],
         [5, 6, 7, 8]
     ])
-    matrx = matrix(numbers)
+    matrx = matrix(numbers)                 # to make array into matrix
     print(matrx)
 
 def in_build_method2():
