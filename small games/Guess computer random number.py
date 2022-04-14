@@ -14,11 +14,12 @@ def guess(x):
         elif guess > random_number:
             print(f"too high, guess again, chances_left: {chances_left}")
 
-    # it will break while loop when we will guess number correctly or chances_left become zero. 
+    # it will break while loop when we will guess number correctly
     if chances_left == 0:
         print(f"you loose, number was {random_number} ")
     else:
-        print(f"congrats! you guessed the number '{random_number}' correctly!!")
+        print(f"congrats! you guessed the number '{random_number}', "
+              f"total guesses you made are: {12-chances_left} correctly!!")
 
 
 guess(1000)
