@@ -19,7 +19,7 @@ def guess(x):
         print(f"you loose, number was {random_number} ")
     else:
         print(f"congrats! you guessed the number '{random_number}', "
-              f"total guesses you made are: {12-chances_left} correctly!!")
+              f"total guesses you made are: {12-chances_left},correctly!!")
 
 
 guess(1000)
