@@ -1,22 +1,28 @@
-# Python Projects
+# Python Practice
 
 ### Task
-To created bunch of Basic Python Projects and to improve my Coding Skills 😅 
+To Learn Python language while making bunch of Basic stuffs to improve my Coding Skills 😅 
 
 ----
 
 ### Summary
-This repositorie contains the basic Projects. That includes 
-- Basic of Console statements 
-- If, Else, Else If loops
-- For loop, While loop, Do While loop
-- Reversing Numbers using While loop
-- About Objects and Complex Objects
+This repositorie contains the basic Stuffs. That includes 
+- **About Binary Search Methods**
+  - How binary search works
+  - How to find the greatest number in the sorted list using binary search 
+  - Recursion to find the target value in sorted list
+- **Matrix**
+  - Methods to create Matrices
+  - Addition and Subtraction of Matrices manually 
+- **About Abstract Class and Abstract Methods**
+- **Bubble Sorting techniques**
+- **Linked list**
+- **Outer Class and Inner Class**
 ***
 
 ### Run locally
 Steps to run in your Machine
-> Run this Command `git clone https://github.com/Bluefalcon04v/JavaScript_practice.git`
+> Run this Command `git clone https://github.com/Bluefalcon04v/Python_Practice.git`
 > 
 > Run `npm install` 
 > 
