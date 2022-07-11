@@ -35,5 +35,5 @@ You are now in the dev environment and you can play around
 ---
 
 ### Tech Used
-Python
+Python programming language
 ***
